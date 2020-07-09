@@ -1,0 +1,84 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+h1 {
+	position:absolute;
+   top:0;
+   right:0;
+   float: right; 
+   display: inline-block;
+}
+
+section {
+	background : aqua;
+	width:100px;
+	height: 100px;
+	margin:2px;
+	position: relative;
+	box-sizing: border-box;
+	border-style: solid;
+  border-width: 1px;
+}
+p{
+	border-style: solid;
+  border-width: 1px;
+	position:absolute;
+   top:0;
+   right:0;
+}
+.p1,.p2,.p3{
+	position:absolute;
+   top:0;
+   right:0;
+	padding-top: 15px;
+}
+@media (min-width:992px){
+	.sec1{
+		float:left;
+		width: 32.7%;
+
+	}
+	.sec2{
+		float: left;
+		width: 33%;
+		
+	}
+	.sec3{
+		float: left;
+		width: 33%;
+	}
+}
+@media (min-width:768px) and (max-width:991px){
+	.sec1{
+		float:left;
+		width: 49%;
+		
+
+	}
+	.sec2{
+		float: left;
+		width: 49%;
+	}
+	.sec3{
+		float: left;
+		width: 99%;
+	}
+}
+@media (max-width: 767px){
+	.sec1{
+		float:left;
+		width: 100%;
+		
+
+	}
+	.sec2{
+		float: left;
+		width: 100%;
+	}
+	.sec3{
+		float: left;
+		width: 100%;
+	}
+}
