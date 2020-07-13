@@ -1,0 +1,23 @@
+#header-nav{
+	background-color: #fffdd0;
+	height: 60px;
+}
+#head{
+	font-weight: bold;
+	font-size: 25px;
+}
+#chik{
+	margin-top: 20px;
+
+	padding: 15px;
+	background-color: maroon;
+	color:white;
+}
+#chikh{
+	text-align: center;
+}
+@media (min-width: 746px) and (max-width: 1400px){
+.dropdown{
+	visibility: hidden;
+}
+}
